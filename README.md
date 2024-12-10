@@ -1,5 +1,7 @@
 Spring Multi-Tenant Application with JWT Authentication
+
 Overview
+
 This is a Spring Boot application designed to support a multi-tenancy setup using a schema-per-tenant architecture. The application ensures secure access to tenant-specific data using Spring Security and JWT tokens for authentication and authorization. By leveraging JPA for persistence and a custom Tenant Context, the application dynamically resolves the correct database schema based on the authenticated user's tenant information.
 
 Features
